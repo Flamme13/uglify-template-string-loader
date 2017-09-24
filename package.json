@@ -1,0 +1,35 @@
+{
+  "name": "uglify-template-string-loader",
+  "version": "1.0.0",
+  "description": "Removes spaces and line breaks in ES Template Strings.",
+  "main": "index.js",
+  "scripts": {
+    "example:build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Flamme13/uglify-template-string-loader.git"
+  },
+  "bugs": "https://github.com/Flamme13/uglify-template-string-loader/issues",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "uglify",
+    "template",
+    "template srting",
+    "es template srting",
+    "js template srting",
+    "srting",
+    "loader",
+    "webpack"
+  ],
+  "author": "Flamme",
+  "license": "MIT",
+  "homepage": "https://github.com/Flamme13/uglify-template-string-loader#readme",
+  "engines": {
+    "node": ">=6"
+  }
+}
