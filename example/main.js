@@ -1,4 +1,4 @@
-let example1 = `
+const example1 = `
     <div class="test test-class">
         <h1>title h1</h1>
         <p> description </p>
@@ -22,7 +22,7 @@ let example1 = `
     `;
 })();
 
-let example3 = () => (
+const example3 = () => (
     `
     <div class="test test-class">
         <h1>title h1</h1>
@@ -35,7 +35,7 @@ let example3 = () => (
     `
 );
 
-let example4 = () => (`
+const example4 = () => (`
     <div class="test test-class">
         <h1>title h1</h1>
         <p> description </p>
@@ -46,7 +46,7 @@ let example4 = () => (`
     </div>
 `);
 
-let example5 = () => `
+const example5 = () => `
     <div class="test test-class">
         <h1>title h1</h1>
         <p> description </p>
@@ -57,7 +57,7 @@ let example5 = () => `
     </div>
 `;
 
-let example6 = () => `<div class="test test-class">
+const example6 = () => `<div class="test test-class">
                           <h1>title h1</h1>
                           <p> description </p>
                           <div>

@@ -1,10 +1,14 @@
 {
   "name": "uglify-template-string-loader",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Removes spaces and line breaks in ES Template Strings.",
   "main": "index.js",
   "scripts": {
-    "example:build": "webpack"
+    "example:build": "webpack",
+    "lint": "./node_modules/.bin/eslint ./",
+    "lint:fix": "./node_modules/.bin/eslint ./ --fix",
+    "test": "jest --config jest.config.js",
+    "coveralls": "jest --config jest.config.js --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
@@ -12,9 +16,8 @@
   },
   "bugs": "https://github.com/Flamme13/uglify-template-string-loader/issues",
   "files": [
-    "index.js",
-    "README.md",
-    "LICENSE"
+    "lib",
+    "index.js"
   ],
   "keywords": [
     "uglify",
@@ -30,6 +33,15 @@
   "license": "MIT",
   "homepage": "https://github.com/Flamme13/uglify-template-string-loader#readme",
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "jest": "^23.1.0",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.0"
   }
 }
