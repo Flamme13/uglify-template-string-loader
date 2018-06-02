@@ -1,6 +1,7 @@
 # uglify-template-string-loader
 
-[![Build Status](https://travis-ci.org/Flamme13/uglify-template-string-loader.svg?branch=master)](https://travis-ci.org/Flamme13/uglify-template-string-loader) [![Coverage Status](https://coveralls.io/repos/github/Flamme13/uglify-template-string-loader/badge.svg?branch=master)](https://coveralls.io/github/Flamme13/uglify-template-string-loader?branch=master)
+[![Travis branch](https://img.shields.io/travis/Flamme13/uglify-template-string-loader/master.svg?style=flat-square)](https://travis-ci.org/Flamme13/uglify-template-string-loader)
+[![Coveralls github branch](https://img.shields.io/coveralls/github/Flamme13/uglify-template-string-loader/master.svg?style=flat-square)](https://coveralls.io/github/Flamme13/uglify-template-string-loader?branch=master)
 
 Removes extra spaces and line breaks in ES Template Strings.
 
