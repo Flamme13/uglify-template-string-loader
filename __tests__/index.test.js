@@ -1,3 +1,5 @@
+/* eslint-disable operator-linebreak */
+
 const uglifyTemplateStringLoader = require('../');
 
 const source1 = 'const example1 = `\n' +
